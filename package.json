@@ -1,0 +1,31 @@
+{
+  "name": "webdev-gen-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoChar4Char/webdev-gen-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NoChar4Char/webdev-gen-template/issues"
+  },
+  "homepage": "https://github.com/NoChar4Char/webdev-gen-template#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.13.0",
+    "vite": "^8.3.5"
+  }
+}
